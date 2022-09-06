@@ -1,0 +1,53 @@
+h1{
+    color: red;
+}
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+.not{
+    text-decoration: underline;
+}
+
+/*========Typeface========*/
+
+* {
+    font-family: 'Helvetica Neue', bold, sans-serif;
+    text-align: center;
+}
+
+/*========Colors========*/
+
+h1, label {
+  color: white;
+}
+
+/*========Main======*/
+
+main {
+    background-color: red;
+    border-radius: 1em;
+    padding: .5em;
+    margin: .25em;
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+/*==========Buttons========*/
+
+button {
+    border-radius: .75em;
+    background-color: red;
+    outline: auto;
+    outline-style: solid;
+    outline-width: 1px;
+    outline-color: black;
+    color: white;
+    padding: .5em .25em;
+    margin: .25em;
+}
+
+a {
+    color: white;
+    font-family: 'Helvetica Neue', bold, sans-serif;
+}
